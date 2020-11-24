@@ -1,10 +1,21 @@
 <?php
+declare(strict_types=1);
 
 //namespace classes\dogs;
 
+/**
+ * Class Dog
+ */
 abstract Class Dog
 {
-    abstract public function sound();
+    /**
+     * Если напиписать в input имя собаки и команду, возвращает действие собаки - какое-то слово
+     * @return string
+     */
+    abstract public function sound(): string;
 
-    abstract public function hunt();
+    /**
+     * @return string
+     */
+    abstract public function hunt(): string;
 }

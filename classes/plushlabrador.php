@@ -2,12 +2,12 @@
 
 Class plushlabrador extends Dog
 {
-    public function sound()
+    public function sound(): string
     {
         return "**no reaction";
     }
 
-    public function hunt()
+    public function hunt(): string
     {
         return "**no reaction";
     }
